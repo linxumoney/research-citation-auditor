@@ -1,0 +1,7 @@
+interface:
+  display_name: "研究引用审计器"
+  short_description: "逐条核验文献是否存在、是否真正支持论断"
+  default_prompt: "使用 $research-citation-auditor 审核这份研究材料的引用，建立论断-证据账本并标出高风险项。"
+
+policy:
+  allow_implicit_invocation: true
